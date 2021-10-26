@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+}
+
+*::selection{
+    background-color: #ED563B;
+}
+
+#backVideo{
+    display: block;
+    width: 99vw;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.7;
+    filter:  brightness(45%);   
+}
+
+.navbar{
+
+    width: 99vw;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(35,45,57,0.5);
+    opacity: 0.3;
+}
+
+
+.container{
+    width: 99vw;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.leftchild{
+
+    width: 20%;
+    height: 40%;
+    float: left;   
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: 900;
+}
+
+.white{
+    display: inline;
+    float: left;
+    margin-right: 10px;
+    color:white;
+}
+.orange{
+
+    display: inline;
+    float: left;
+    color: #ED563B;
+}
+
+.headpos{
+
+    position: relative;
+    top: 29px; ;
+    left: 107px;
+}
+
+.rightchild{
+    width: 50%;
+    height: inherit;
+    float: right;
+    background-color: transparent;
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: 700;
+}
+
+.navItem{
+
+    float: left;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    top: 25px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.signup{
+
+    background-color: #ED563B;
+    color: white;
+    margin-left: 20px;
+}
+.span{
+
+    position: relative;
+    top: 11px;
+}
+
+.navItem:hover {
+
+    font-size: 115%;
+    color:  #ED563B;
+
+}
+
+.signup:hover{
+
+    color:white
+}
+
+.homeTxt{
+
+    width: 100%;
+    text-align: center;
+    font-family:'Poppins';
+    position: absolute;
+    top: 265px;
+    color: white;
+}
+
+#largeTxt{
+
+    font-size: 75px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    justify-items: center;
+    justify-content: center;
+
+}
+
+.btn1{
+
+    background-color:#ED563B ;
+    width: 175px;
+    height: 45px;
+    position: relative;
+    left: 645px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.btn1:hover{
+    filter : brightness(130%);
+}
+
+.orange2 , #orange2{
+
+    color:#ED563B ;
+}
+
+.btn1txtpos{
+    position: relative;
+    top:    8px;
+}
+
+.program , .classes , .trainers{
+    
+    margin-top: 100px;
+    font-family:'Poppins';
+    width:100%;
+    text-align: center;
+}
+
+.graytxt{
+    color: gray;
+}
+
+.programicon{
+    background-image: url("/images/features-first-icon.png");
+    width: 90px;
+    height: 90px;
+    border-radius: 3px;
+    background-size: cover;
+    float: left;
+}
+
+.programtxt{
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-left: 20px;
+    float: left;
+}
+
+.card{
+
+    height: 120px;
+    float: left;
+}
+
+
+
+.cardright{
+    margin-left: 40px;
+}
+.cardleft{
+    width: 50%;
+}
+
+.programcontainer{
+    width: 70%;
+    height: 100px;
+    position: relative;
+    top:18px;
+    left: 250px;
+    margin: 50px 50px 50px ;
+    font-size: 80%;
+    font-weight:300;
+}
+
+.imgcontainer{
+    background-image: url('/images/cta-bg.jpg');    
+    background-size: cover;
+    object-fit: cover;
+    width: 99vw;
+    height: 379px;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins';
+  
+}
+
+.textpos{
+
+    position:relative;
+    top: 150px;
+}
+
+
+.classbox{
+
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    width:350px;
+    height: 90px;
+    margin-bottom:30px ;
+    margin-left: 50px;
+}
+
+.classicon , .typesofclasses{
+    float: left;
+}
+
+.classtxt {
+    float: left;
+    margin-left: 30px;
+    
+    
+}
+
+.classboxcontent{
+
+    position: relative;
+    top: 30px;
+    left: 35px;
+}
+
+#training-image-01{
+    border-radius: 5px;
+    float: left;
+    margin-left: 50px;
+}
+
+
+.picdefine{
+    clear: both;
+    position: relative;
+    top:-30px;
+    left: 275px;
+    width: 50%;
+}
+
+.classescontainer {
+    width: 80%;
+    position: relative;
+    top:100px;
+    left: 180px;
+    color:#232d39;
+}
+
+.classbox:hover{
+    background-color: silver;
+    filter: brightness(130%);
+    font-size: 105%;
+}
+
+.trainerbox{
+
+    float: left;
+    margin-left: 30px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    text-align: left;
+    padding: 40px;
+}
+
+.trainerscontainer{
+    width: 85%;
+    position: relative;
+    top:100px;
+    left: 130px;
+    color:#232d39;
+}
+
+
+.trainers{
+
+    margin-top: 200px;
+    height: 110vh;
+}
+
+.footercontainer{
+    font-family: 'Courier New', Courier, monospace;
+    height: 80px;
+    
+}
+.footer{
+
+    clear: both;
+    background-color:gray;
+    opacity: .5;
+    height: 80px;
+  
+}
+
+.footertxt{
+
+    width:70%;
+    position: relative;
+    bottom:45px;
+    left:220px;
+    color: white;
+
+}
